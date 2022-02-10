@@ -1,5 +1,5 @@
 #include <iostream>
-
+// start of the file 
 using namespace std;
 
 int iloscLiczb = 30;
@@ -27,7 +27,7 @@ i ++;
   
   
   
-// jesli obiekt z tablicy podzielony przez 2 daje resztê 0 to zwiêksz zmienn¹ parzyste
+// jesli obiekt z tablicy podzielony przez 2 daje resztÄ™ 0 to zwiÄ™ksz zmiennÄ… parzyste
 int Parzyste = 0;
 i = 0;
 while(i < iloscLiczb) 
@@ -36,7 +36,7 @@ if(tablicaliczb[i] % 2 == 0) Parzyste ++;
 i ++;
 }
 
-//odpowiedŸ
+//odpowiedÅº
 cout <<"Ilosc podanych liczb parzystych : " << Parzyste << endl;
 
 
